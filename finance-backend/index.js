@@ -30,6 +30,12 @@ app.use("/kpi", kpiRoutes);
 app.use("/product", productRoutes);
 app.use("/transaction", transactionRoutes);
 
+app.get("/", (req, res) => {
+  let title = process.env.TITLE;
+  let description = process.env.DESCRIPTION;
+  res.status(200).json({ title, description });
+});
+
 /* MONGOOSE SETUP */
 const PORT = process.env.PORT || 9000;
 mongoose
