@@ -1,28 +1,43 @@
-# 金融分析范例
+# Finance Dashboard
 
-查尔斯个人作品集 - 金融分析范例
+Charles Sin Portfolio - Finance Dashboard
 
-## 封面图片 Coming Soon
+## Screenshot
 
-## 范例链接 Coming Soon
+![alt cover](https://github.com/CharlesSin/Finance-App/blob/master/finance-app/public/images/cover.jpg)
 
-## 简介
+## Demo
 
-使用学习到的前端和后端技术，实作出「金融分析范例」
-记录每天的花费，KPI和收入
+[Finance Dashboard](https://charles-finance-app.netlify.app/)
 
-## 使用技术和第三方套件
+## Introduction
 
-### 前端
+Build a MERN Finance Dashboard App that has Machine Learning Predictions
 
-- react
-- mui
+## Use Technology & Library
 
-### 后端
+### Frontend
 
+- React
+- Redux
+- Material UI
+- Recharts
+- Regression
+
+### Backend
+
+- body-parser
 - cors
 - dotenv
 - express
+- helmet
 - mongoose
+- mongoose-currency
+- morgan
 
-## 特征 Coming Soon
+## Features
+
+- [x] Revenue and Expenses
+- [x] Profit and Revenue
+- [x] Revenue and Predictions
+- [x] Responsive layout design
